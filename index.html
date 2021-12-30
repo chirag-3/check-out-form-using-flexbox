@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <title>checkout form</title>
+  </head>
+  <body>
+    <form>
+      <div class="content">
+        <div class="details">
+           <div class="form-text">
+             <label for="address">Address :</label>
+             <input id="address" type="text" name="address"
+             placeholder="Address">
+           </div>
+           <div class="form-text">
+             <label for="city">City :</label>
+             <input id="city" type="text" name="city" placeholder="City">
+           </div>
+           <div class="form-text">
+             <label>Postcode :</label>
+             <input id="postcode" type="text" name="postcode"
+             placeholder="Postcode">
+           </div>
+           <div class="shipping">
+             <div> Choose your Shipping Method </div>
+             <div>
+               <select name="shipping">
+                 <option value="O1">Free Shipping</option>
+                 <option value="O2">Two-day</option>
+                 <option value="O3">One-day</option>
+               </select>
+              </div>
+          </div>
+          <div class="payment">
+            <div>Choose your payment option</div>
+            <div>
+            <label>Paypal<input type="radio" name="payment"
+              value="paypal"></label>
+            <label>Credit Card<input type="radio" name="payment"
+              value="credit"></label>
+            <label>Debit Card<input type="radio" name="payment"
+              value="debit"></label>
+            </div>
+        </div>
+        <div class="checks">
+          <label>Sign me up for email updates<input type="checkbox"
+             name="sign me up for emial updates" checked="checked"></label>
+          <label>Save my payment details securely<input type="checkbox"
+            name="save my payment details securely" checked="checked"></label>
+        </div>
+        </div>
+
+        <div class="comments">
+          <label for="comments">
+            Comments:
+          </label>
+          <textarea id="comments" placeholder="comments" name="comments"
+          rows="8" cols="40"></textarea>
+        </div>
+      </div>
+      <div class="submit">
+        <button type="submit">NEXT</button>
+      </div>
+    </form>
+
+  </body>
+</html>
