@@ -22,9 +22,14 @@ form{
   /* background-color: blue; */
 }
 
+select, textarea, .form-text input{
+  font-size:1em;
+}
+
+
 
 .details{
-  background-color: blue;
+  /* background-color: blue; */
   flex:3;
 }
 
